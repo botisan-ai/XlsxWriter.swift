@@ -1,0 +1,20 @@
+[package]
+  name = "xlsxwriter-swift"
+  version = "0.1.0"
+  edition = "2024"
+
+[dependencies]
+  rust_xlsxwriter = "0.92.3"
+  thiserror = "2.0"
+  uniffi = { version = "0.30.0", features = ["cli"] }
+
+[build-dependencies]
+  uniffi = { version = "0.30.0", features = ["build"] }
+
+[lib]
+  crate-type = ["cdylib", "staticlib"]
+  name = "xlsxwriter"
+
+[[bin]]
+  name = "uniffi-bindgen"
+  path = "src/uniffi-bindgen.rs"

@@ -1,0 +1,24 @@
+# Build artifacts
+/target/
+/build/
+/out/
+
+# Cargo lock (optional for libraries)
+# Cargo.lock
+
+# macOS
+.DS_Store
+
+# Swift
+.build/
+.swiftpm/
+Package.resolved
+
+# IDE
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Generated files (keep in repo after build)
+# Sources/XlsxWriterFFI/xlsxwriter.swift
