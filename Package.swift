@@ -16,7 +16,7 @@ if useLocalFramework {
     binaryTarget = .binaryTarget(
         name: "XlsxWriterRS",
         url:
-        "https://github.com/example/XlsxWriter.swift/releases/download/\(releaseTag)/libxlsxwriter-rs.xcframework.zip",
+        "https://github.com/lhr0909/XlsxWriter.swift/releases/download/\(releaseTag)/libxlsxwriter-rs.xcframework.zip",
         checksum: releaseChecksum
     )
 }
