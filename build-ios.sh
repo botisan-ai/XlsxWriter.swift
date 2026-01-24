@@ -15,9 +15,9 @@ cargo build --release --target aarch64-apple-ios-sim
 cargo build --release --target aarch64-apple-darwin
 
 rm -rf ./build
-mkdir -p ./build/Headers
-cp ./out/xlsxwriterFFI.h ./build/Headers/
-cp ./out/module.modulemap ./build/Headers/
+mkdir -p ./build/Headers/xlsxwriterFFI
+cp ./out/xlsxwriterFFI.h ./build/Headers/xlsxwriterFFI/
+cp ./out/module.modulemap ./build/Headers/xlsxwriterFFI/
 
 cp ./out/xlsxwriter.swift ./Sources/XlsxWriterFFI/
 
