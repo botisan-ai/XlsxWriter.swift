@@ -11,8 +11,8 @@ if useLocalFramework {
         path: "./build/libxlsxwriter-rs.xcframework"
     )
 } else {
-    let releaseTag = "0.1.2"
-    let releaseChecksum = "5301cff35f3cf8a4e5e10bdbec4ae327606c130e380f901ebff89fb9ff24f16a"
+    let releaseTag = "0.1.3"
+    let releaseChecksum = "637e47e49db2b3959cd753612c0516af7dfc3541695f8cc12b12fb122f14b3c3"
     binaryTarget = .binaryTarget(
         name: "XlsxWriterRS",
         url:
